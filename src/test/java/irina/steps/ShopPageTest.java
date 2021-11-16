@@ -42,7 +42,7 @@ public class ShopPageTest {
                 .click();   //нажатие на кнопку
     }
 
-    @Then("I check, cart is empty")
+    @Then("I check cart is empty")
     public void checkResult() {
         ShopResultPage resultPage = new ShopResultPage();
         Assert.assertNotNull(resultPage.getWarning());

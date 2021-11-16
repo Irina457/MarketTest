@@ -1,10 +1,10 @@
 #language: en
 
-Feature: check shop cart
+Feature: Check shop cart
 
   Background:
     Given I open shop page
 
-  Scenario: check empty cart
+  Scenario: Check empty cart
     When I click the cart button
-    Then I check, cart is empty
+    Then I check cart is empty
